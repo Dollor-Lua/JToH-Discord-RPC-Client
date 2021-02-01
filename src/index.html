@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord RPC For JToH</title>
+
+    <link rel="stylesheet" href="./index.css" />
+    <script type="text/javascript" src="./index.html.js"></script>
+</head>
+<body style="background-color: #222222">
+    <p class="rn">Tower Name:</p>
+
+    <select name="Tower" class="ring" id="dropdown"></select>
+    <button id='subm' class='type'>Update Tower</button>
+
+    <script>
+        const btn = document.getElementById('subm');
+        btn.onclick = function(_e) {
+            const dropdown = document.getElementById('dropdown')
+            if (dropdown.value.length > 0) {
+                remote.getCurrentWindow().towerSelected = dropdown.value;
+            } else {
+                remote.getCurrentWindow().towerSelected = 'Somewhere...';
+            }
+        }
+    </script>
+</body>
+</html>

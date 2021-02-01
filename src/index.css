@@ -1,0 +1,82 @@
+.ring {
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    margin-top: 50px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #444444;
+    color: #ffffff;
+    position: absolute;
+}
+
+.type {
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    margin-top: 150px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #444444;
+    color: #ffffff;
+    position: absolute;
+}
+
+.type:hover {
+    background-color: #343434;
+}
+
+.type:active {
+    background-color: #232323;
+}
+
+.tower {
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    margin-top: 250px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #444444;
+    color: #ffffff;
+    position: absolute;
+}
+
+.rn {
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    margin-top: 0px;
+    color: #ffffff;
+    font-size: 40px;
+    position: absolute;
+}
+
+.wt {
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    margin-top: 100px;
+    color: #ffffff;
+    font-size: 40px;
+    position: absolute;
+}
+
+.tn {
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    margin-top: 200px;
+    color: #ffffff;
+    font-size: 40px;
+    position: absolute;
+}
