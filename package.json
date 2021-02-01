@@ -25,7 +25,7 @@
       },
       "electronPackagerConfig": {
         "packageManager": "yarn",
-        "icon": "src/JToH_512.jpg"
+        "icon": "src/JToH_512.ico"
       },
       "electronWinstallerConfig": {
         "name": "JToH Discord RPC"
