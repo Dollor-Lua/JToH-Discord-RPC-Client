@@ -1,0 +1,28 @@
+{
+  "name": "jtoh-rpc",
+  "version": "1.2.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.2.1",
+    "electron-builder": "^22.9.1"
+  },
+  "build": {
+    "appId": "test.electron",
+    "mac": {
+      "category": "games"
+    }
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord-rpc": "^3.1.4",
+    "rage-edit": "^1.2.0"
+  }
+}
