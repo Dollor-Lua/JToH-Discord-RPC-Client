@@ -3,8 +3,6 @@
   "productName": "JToH.DiscordRPC.Client",
   "version": "1.0.0",
   "description": "An application to set your discord status to playing jtoh with a specific tower.",
-  "github_repository.name": "JToH-Discord-RPC-Client",
-  "github_repository.owner": "Dollor-Lua",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -21,6 +19,8 @@
   "license": "MIT",
   "config": {
     "forge": {
+      "github_repository.name": "JToH-Discord-RPC-Client",
+      "github_repository.owner": "Dollor-Lua",
       "packagerConfig": {},
       "makers": [
         {
