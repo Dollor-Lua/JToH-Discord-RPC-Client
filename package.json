@@ -28,7 +28,7 @@
         "icon": "src/JToH_512.ico"
       },
       "electronWinstallerConfig": {
-        "name": "JToH Discord RPC"
+        "name": "JToH.Discord.RPC"
       },
       "packagerConfig": {},
       "makers": [
