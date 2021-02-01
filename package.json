@@ -19,8 +19,17 @@
   "license": "MIT",
   "config": {
     "forge": {
-      "github_repository.name": "JToH-Discord-RPC-Client",
-      "github_repository.owner": "Dollor-Lua",
+      "github_repository": {
+        "owner": "Dollor-Lua",
+        "name": "JToH-Discord-RPC-Client"
+      },
+      "electronPackagerConfig": {
+        "packageManager": "yarn",
+        "icon": "src/JToH_512.jpg"
+      },
+      "electronWinstallerConfig": {
+        "name": "JToH Discord RPC"
+      },
       "packagerConfig": {},
       "makers": [
         {
