@@ -1,7 +1,7 @@
 # JToH Discord RPC
-![Issues](https://img.shields.io/github/issues/Dollor-Lua/JToH-Discord-RPC-Client?color=critical&logo=github&style=plastic)
-![Forks](https://img.shields.io/github/forks/Dollor-Lua/JToH-Discord-RPC-Client?logo=github&style=plastic)
-![Stars](	https://img.shields.io/github/stars/Dollor-Lua/JToH-Discord-RPC-Client?logo=github&style=plastic)
+[![Issues](https://img.shields.io/github/issues/Dollor-Lua/JToH-Discord-RPC-Client?color=critical&logo=github&style=plastic)](https://github.com/Dollor-Lua/JToH-Discord-RPC-Client/issues)
+[![Forks](https://img.shields.io/github/forks/Dollor-Lua/JToH-Discord-RPC-Client?logo=github&style=plastic)](https://github.com/Dollor-Lua/JToH-Discord-RPC-Client/network/members)
+[![Stars](https://img.shields.io/github/stars/Dollor-Lua/JToH-Discord-RPC-Client?logo=github&style=plastic)](https://github.com/Dollor-Lua/JToH-Discord-RPC-Client/stargazers)
 
 ## Getting Started
 
